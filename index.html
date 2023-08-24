@@ -39,8 +39,8 @@
         <script src="data/REAABERTA22019HA_13.js"></script>
         <script src="data/REAABERTAECONSOLIDADA12793HA_14.js"></script>
         <script src="data/REACONSOLIDADA160998HA_15.js"></script>
-        <script src="data/AUAS9226HA_16.js"></script>
-        <script src="data/CERRADOBAIXO191435HA_17.js"></script>
+        <script src="data/READEUSOANTROPIZADODOSOLOAUAS9226HA_16.js"></script>
+        <script src="data/CERRADORALO191435HA_17.js"></script>
         <script src="data/CERRADODENSO163139HA_18.js"></script>
         <script src="data/APP5767HA_19.js"></script>
         <script src="data/RIOMANSO_20.js"></script>
@@ -64,7 +64,7 @@
         }
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[-14.830152198310342,-55.87921806011223],[-14.813240148748102,-55.83771773565337]]);
+        }).fitBounds([[-14.830844105913531,-55.87935775267336],[-14.81281717281738,-55.837851569041234]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -460,7 +460,7 @@
             style: style_REACONSOLIDADA160998HA_15_0,
         });
         bounds_group.addLayer(layer_REACONSOLIDADA160998HA_15);
-        function pop_AUAS9226HA_16(feature, layer) {
+        function pop_READEUSOANTROPIZADODOSOLOAUAS9226HA_16(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -478,9 +478,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_AUAS9226HA_16_0() {
+        function style_READEUSOANTROPIZADODOSOLOAUAS9226HA_16_0() {
             return {
-                pane: 'pane_AUAS9226HA_16',
+                pane: 'pane_READEUSOANTROPIZADODOSOLOAUAS9226HA_16',
                 opacity: 1,
                 color: 'rgba(252,21,255,1.0)',
                 dashArray: '',
@@ -493,20 +493,20 @@
                 interactive: true,
             }
         }
-        map.createPane('pane_AUAS9226HA_16');
-        map.getPane('pane_AUAS9226HA_16').style.zIndex = 416;
-        map.getPane('pane_AUAS9226HA_16').style['mix-blend-mode'] = 'normal';
-        var layer_AUAS9226HA_16 = new L.geoJson(json_AUAS9226HA_16, {
+        map.createPane('pane_READEUSOANTROPIZADODOSOLOAUAS9226HA_16');
+        map.getPane('pane_READEUSOANTROPIZADODOSOLOAUAS9226HA_16').style.zIndex = 416;
+        map.getPane('pane_READEUSOANTROPIZADODOSOLOAUAS9226HA_16').style['mix-blend-mode'] = 'normal';
+        var layer_READEUSOANTROPIZADODOSOLOAUAS9226HA_16 = new L.geoJson(json_READEUSOANTROPIZADODOSOLOAUAS9226HA_16, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_AUAS9226HA_16',
-            layerName: 'layer_AUAS9226HA_16',
-            pane: 'pane_AUAS9226HA_16',
-            onEachFeature: pop_AUAS9226HA_16,
-            style: style_AUAS9226HA_16_0,
+            dataVar: 'json_READEUSOANTROPIZADODOSOLOAUAS9226HA_16',
+            layerName: 'layer_READEUSOANTROPIZADODOSOLOAUAS9226HA_16',
+            pane: 'pane_READEUSOANTROPIZADODOSOLOAUAS9226HA_16',
+            onEachFeature: pop_READEUSOANTROPIZADODOSOLOAUAS9226HA_16,
+            style: style_READEUSOANTROPIZADODOSOLOAUAS9226HA_16_0,
         });
-        bounds_group.addLayer(layer_AUAS9226HA_16);
-        function pop_CERRADOBAIXO191435HA_17(feature, layer) {
+        bounds_group.addLayer(layer_READEUSOANTROPIZADODOSOLOAUAS9226HA_16);
+        function pop_CERRADORALO191435HA_17(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     for (i in e.target._eventParents) {
@@ -528,9 +528,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_CERRADOBAIXO191435HA_17_0() {
+        function style_CERRADORALO191435HA_17_0() {
             return {
-                pane: 'pane_CERRADOBAIXO191435HA_17',
+                pane: 'pane_CERRADORALO191435HA_17',
                 opacity: 1,
                 color: 'rgba(255,158,23,1.0)',
                 dashArray: '',
@@ -543,20 +543,20 @@
                 interactive: true,
             }
         }
-        map.createPane('pane_CERRADOBAIXO191435HA_17');
-        map.getPane('pane_CERRADOBAIXO191435HA_17').style.zIndex = 417;
-        map.getPane('pane_CERRADOBAIXO191435HA_17').style['mix-blend-mode'] = 'normal';
-        var layer_CERRADOBAIXO191435HA_17 = new L.geoJson(json_CERRADOBAIXO191435HA_17, {
+        map.createPane('pane_CERRADORALO191435HA_17');
+        map.getPane('pane_CERRADORALO191435HA_17').style.zIndex = 417;
+        map.getPane('pane_CERRADORALO191435HA_17').style['mix-blend-mode'] = 'normal';
+        var layer_CERRADORALO191435HA_17 = new L.geoJson(json_CERRADORALO191435HA_17, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_CERRADOBAIXO191435HA_17',
-            layerName: 'layer_CERRADOBAIXO191435HA_17',
-            pane: 'pane_CERRADOBAIXO191435HA_17',
-            onEachFeature: pop_CERRADOBAIXO191435HA_17,
-            style: style_CERRADOBAIXO191435HA_17_0,
+            dataVar: 'json_CERRADORALO191435HA_17',
+            layerName: 'layer_CERRADORALO191435HA_17',
+            pane: 'pane_CERRADORALO191435HA_17',
+            onEachFeature: pop_CERRADORALO191435HA_17,
+            style: style_CERRADORALO191435HA_17_0,
         });
-        bounds_group.addLayer(layer_CERRADOBAIXO191435HA_17);
-        map.addLayer(layer_CERRADOBAIXO191435HA_17);
+        bounds_group.addLayer(layer_CERRADORALO191435HA_17);
+        map.addLayer(layer_CERRADORALO191435HA_17);
         function pop_CERRADODENSO163139HA_18(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -815,7 +815,7 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/NASCENTE_22.png" /> NASCENTE': layer_NASCENTE_22,'<img src="legend/CURSO_DAGUA_21.png" /> CURSO_DAGUA': layer_CURSO_DAGUA_21,'<img src="legend/RIOMANSO_20.png" /> RIO MANSO': layer_RIOMANSO_20,'<img src="legend/APP5767HA_19.png" /> APP - 57,67 HA': layer_APP5767HA_19,'<img src="legend/CERRADODENSO163139HA_18.png" /> CERRADO DENSO - 163,139 HA': layer_CERRADODENSO163139HA_18,'<img src="legend/CERRADOBAIXO191435HA_17.png" /> CERRADO BAIXO - 191,435 HA': layer_CERRADOBAIXO191435HA_17,'<img src="legend/AUAS9226HA_16.png" /> AUAS - 9,226 HA': layer_AUAS9226HA_16,'<img src="legend/REACONSOLIDADA160998HA_15.png" /> ÁREA CONSOLIDADA - 160,998 HA': layer_REACONSOLIDADA160998HA_15,'<img src="legend/REAABERTAECONSOLIDADA12793HA_14.png" /> ÁREA ABERTA E CONSOLIDADA - 12,793 HA': layer_REAABERTAECONSOLIDADA12793HA_14,'<img src="legend/REAABERTA22019HA_13.png" /> ÁREA ABERTA - 22,019 HA': layer_REAABERTA22019HA_13,'<img src="legend/ATP37445HA_12.png" /> ATP - 374,45 HA': layer_ATP37445HA_12,'<img src="legend/CONFRONTANTES_11.png" /> CONFRONTANTES': layer_CONFRONTANTES_11,"2008 - SPOT SEMA": layer_2008SPOTSEMA_10,"2018/08 - PLANET": layer_201808PLANET_9,"2019/08 - PLANET": layer_201908PLANET_8,"2020/08 - PLANET": layer_202008PLANET_7,"2021/08 - PLANET": layer_202108PLANET_6,"2022/08 - PLANET": layer_202208PLANET_5,"2023/06 - PLANET": layer_202306PLANET_4,"2023/07 - PLANET": layer_202307PLANET_3,"2023/07/11 - C4A - PAN": layer_20230711C4APAN_2,"2023/08/09 - S2": layer_20230809S2_1,"Google Satellite": layer_GoogleSatellite_0,}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/NASCENTE_22.png" /> NASCENTE': layer_NASCENTE_22,'<img src="legend/CURSO_DAGUA_21.png" /> CURSO_DAGUA': layer_CURSO_DAGUA_21,'<img src="legend/RIOMANSO_20.png" /> RIO MANSO': layer_RIOMANSO_20,'<img src="legend/APP5767HA_19.png" /> APP - 57,67 HA': layer_APP5767HA_19,'<img src="legend/CERRADODENSO163139HA_18.png" /> CERRADO DENSO - 163,139 HA': layer_CERRADODENSO163139HA_18,'<img src="legend/CERRADORALO191435HA_17.png" /> CERRADO RALO - 191,435 HA': layer_CERRADORALO191435HA_17,'<img src="legend/READEUSOANTROPIZADODOSOLOAUAS9226HA_16.png" /> ÁREA DE USO ANTROPIZADO DO SOLO (AUAS) - 9,226 HA': layer_READEUSOANTROPIZADODOSOLOAUAS9226HA_16,'<img src="legend/REACONSOLIDADA160998HA_15.png" /> ÁREA CONSOLIDADA - 160,998 HA': layer_REACONSOLIDADA160998HA_15,'<img src="legend/REAABERTAECONSOLIDADA12793HA_14.png" /> ÁREA ABERTA E CONSOLIDADA - 12,793 HA': layer_REAABERTAECONSOLIDADA12793HA_14,'<img src="legend/REAABERTA22019HA_13.png" /> ÁREA ABERTA - 22,019 HA': layer_REAABERTA22019HA_13,'<img src="legend/ATP37445HA_12.png" /> ATP - 374,45 HA': layer_ATP37445HA_12,'<img src="legend/CONFRONTANTES_11.png" /> CONFRONTANTES': layer_CONFRONTANTES_11,"2008 - SPOT SEMA": layer_2008SPOTSEMA_10,"2018/08 - PLANET": layer_201808PLANET_9,"2019/08 - PLANET": layer_201908PLANET_8,"2020/08 - PLANET": layer_202008PLANET_7,"2021/08 - PLANET": layer_202108PLANET_6,"2022/08 - PLANET": layer_202208PLANET_5,"2023/06 - PLANET": layer_202306PLANET_4,"2023/07 - PLANET": layer_202307PLANET_3,"2023/07/11 - C4A - PAN": layer_20230711C4APAN_2,"2023/08/09 - S2": layer_20230809S2_1,"Google Satellite": layer_GoogleSatellite_0,}).addTo(map);
         setBounds();
         L.ImageOverlay.include({
             getBounds: function () {
