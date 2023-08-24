@@ -213,7 +213,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(90,153,92,0.0)',
-                interactive: false,
+                interactive: true,
             }
         }
         map.createPane('pane_CONFRONTANTES_11');
@@ -221,7 +221,7 @@
         map.getPane('pane_CONFRONTANTES_11').style['mix-blend-mode'] = 'normal';
         var layer_CONFRONTANTES_11 = new L.geoJson(json_CONFRONTANTES_11, {
             attribution: '',
-            interactive: false,
+            interactive: true,
             dataVar: 'json_CONFRONTANTES_11',
             layerName: 'layer_CONFRONTANTES_11',
             pane: 'pane_CONFRONTANTES_11',
